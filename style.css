@@ -52,5 +52,29 @@ header {
     color: #012a4a;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.content {
+    display: none;
+    flex-direction: column;
+    border: 0.5rem solid black;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
 
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.results img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
